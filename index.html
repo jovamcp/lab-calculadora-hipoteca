@@ -312,7 +312,7 @@
         <label for="precio">Precio de la vivienda</label>
         <div class="input-wrap">
           <span class="input-prefix">$</span>
-          <input type="number" id="precio" value="350000" min="50000" max="5000000" step="1000">
+          <input type="number" id="precio" value="0" min="50000" max="5000000" step="1000">
         </div>
       </div>
 
@@ -320,7 +320,7 @@
         <label for="enganche">Enganche (<span id="enganche-pct">20</span>%)</label>
         <div class="input-wrap">
           <span class="input-prefix">$</span>
-          <input type="number" id="enganche" value="70000" min="0" max="5000000" step="1000">
+          <input type="number" id="enganche" value="0" min="0" max="5000000" step="1000">
         </div>
         <input type="range" id="enganche-range" min="0" max="50" value="20" step="1">
         <div class="range-labels"><span>0%</span><span>50%</span></div>
@@ -330,7 +330,7 @@
         <label>Monto del préstamo</label>
         <div class="input-wrap">
           <span class="input-prefix">$</span>
-          <input type="number" id="prestamo" value="280000" readonly style="background:#f0ede6; color:var(--muted);">
+          <input type="number" id="prestamo" value="0" readonly style="background:#f0ede6; color:var(--muted);">
         </div>
       </div>
     </div>
@@ -342,7 +342,7 @@
       <div class="field">
         <label for="tasa">Tasa de interés anual</label>
         <div class="input-wrap">
-          <input type="number" id="tasa" value="6" min="0.1" max="30" step="0.05" style="padding-left: 0.75rem; padding-right: 1.8rem;">
+          <input type="number" id="tasa" value="0" min="0.1" max="30" step="0.05" style="padding-left: 0.75rem; padding-right: 1.8rem;">
           <span class="input-suffix">%</span>
         </div>
         <input type="range" id="tasa-range" min="1" max="15" value="6" step="0.25">
@@ -352,7 +352,7 @@
       <div class="field">
         <label for="plazo">Plazo del crédito</label>
         <div class="input-wrap">
-          <input type="number" id="plazo" value="30" min="1" max="40" step="1" style="padding-left: 0.75rem; padding-right: 2.8rem;">
+          <input type="number" id="plazo" value="0" min="1" max="40" step="1" style="padding-left: 0.75rem; padding-right: 2.8rem;">
           <span class="input-suffix">años</span>
         </div>
         <input type="range" id="plazo-range" min="5" max="40" value="30" step="5">
